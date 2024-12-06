@@ -23,7 +23,7 @@ function Main(){
                 <li><Link to='/exercises'><StyleButton>Ćwiczenia</StyleButton></Link><br></br></li>
                 </ul>
                 {outlet ?? <div className="main"></div>}
-                <div className="ad"><img src={ad} alt="ad" height='100%' width='252%'></img></div>
+                <div className="ad"><a href="trening"><img src={ad} alt="ad" height='100%' width='252%'></img></a></div>
             </div>
             <div className="footer">
                 Stronę wykonał: Michał Nieradko i Maciej Wróblewski klasa V ET
