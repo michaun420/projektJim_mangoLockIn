@@ -5,6 +5,7 @@ import Main from './routes/Main';
 import Calc from './routes/Calc';
 import Dishes from './routes/Dishes';
 import Exercises from './routes/Exercises';
+import Trening from './routes/tren';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       <Route path='dishes' element={<Dishes />}/>
       <Route path='exercises' element={<Exercises />}/>
       </Route>
+      <Route path='/trening' element={<Trening/>}/>
+
+      
     </Routes>
     </BrowserRouter>
   );

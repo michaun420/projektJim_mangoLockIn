@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moja Strona Internetowa</title>
-    <link rel="stylesheet" href="style2.css">
-</head>
-<body>
+import "./style2.css"
+import photo from './trentwins.jpg'
 
-<header>
+function Trening(){
+
+    return<><header>
     <h1>Sklep Mamur</h1>
 </header>
 
@@ -20,7 +15,7 @@
 
     <div class="main-content">
         <h1>Zadowolony użytkownik</h1>
-        <p><img src="trentwins.jpg" alt="nie ma zdjecia" height="500px" width="500px"></p>
+        <p><img src={photo} alt="nie ma zdjecia" height="500px" width="500px"/></p>
         
     </div>
 
@@ -33,7 +28,7 @@
 
 <footer>
     <p>Kontakt:  <a href="mailto:sklep.mamur@poczta.com">Adres-Mailowy</a></p>
-</footer>
+</footer></>
+}
 
-</body>
-</html>
+export default Trening
