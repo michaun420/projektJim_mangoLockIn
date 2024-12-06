@@ -32,7 +32,7 @@ function Calc(){
             <button type="submit">Oblicz swojego maxa</button>
             </form>
             <div className="wynik">
-                Twój szacowany 1RM: <br></br>{max}
+                Twój szacowany 1RM: <br></br>{Math.round(max)}kg
             </div>
         </div>
     </div>

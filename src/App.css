@@ -61,5 +61,10 @@ input{
   font-size: 30px;
 }
 .wynik{
+  font-size: 30px;
   background-color: green;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 40px;
 }
