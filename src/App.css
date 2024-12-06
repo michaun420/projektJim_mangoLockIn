@@ -44,3 +44,22 @@ body{
 .title{
   margin-right: 160px;
 }
+.calc{
+  background-color: #243642;
+  height: 650px;
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  color: ivory;
+}
+.form{
+  font-size: 30px;
+}
+input{
+  height: 40px;
+  width: 250px;
+  font-size: 30px;
+}
+.wynik{
+  background-color: green;
+}
