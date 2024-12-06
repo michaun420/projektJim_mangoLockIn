@@ -35,6 +35,12 @@ body{
   height: 56px;
 }
 .main{
-  width: 61%;
+  width: 80.52%;
 }
-
+.back{
+  float: left;
+  margin-left: 35px;
+}
+.title{
+  margin-right: 160px;
+}
