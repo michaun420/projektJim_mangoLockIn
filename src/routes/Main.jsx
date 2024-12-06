@@ -22,13 +22,8 @@ function Main(){
                 <li><Link to='/dishes'><StyleButton>Autorska dieta 'Random'</StyleButton></Link><br></br></li>      
                 <li><Link to='/exercises'><StyleButton>Ćwiczenia</StyleButton></Link><br></br></li>
                 </ul>
-<<<<<<< HEAD
-                {outlet ?? <div className="main">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet laoreet ligula eleifend bibendum. Cras tincidunt marcu rhoncus, gravida eros eu, bibendum enim. Praesent metus quam, volutpat vitae cursus sit amet, hendrerit at ante.Aenean sodales metus nec augue bibendum rhoncus. Duis tincidunt venenatis nisi, lobortis porttitor magna rhoncus non. Cras eros massa, suscipit a odio vitae, vehicula ultrices leo. Morbi quis enim feugiat, rutrum risus in, elementum dui. Proin tincidunt, orci eget condimentum eleifend, sapien nisl commodo tortor, a facilisis lacus nisl sed leo. Mauris in dolor sapien. Cras ullamcorper dolor orci, ac congue felis viverra vel. Ut elementum turpis tortor, nec vestibulum eros sollicitudin bibendum.</div>}
-                <div className="ad"> <a href="trening"><img src={ad} alt="ad" height='100%' width='252%' ></img></a></div>
-=======
                 {outlet ?? <div className="main"></div>}
-                <div className="ad"><img src={ad} alt="ad" height='100%' width='252%'></img></div>
->>>>>>> 15c78a60bce928edfa2b0edbccf15bf25332c4b5
+                <div className="ad"> <a href="trening"><img src={ad} alt="ad" height='100%' width='252%' ></img></a></div>
             </div>
             <div className="footer">
                 Stronę wykonał: Michał Nieradko i Maciej Wróblewski klasa V ET
