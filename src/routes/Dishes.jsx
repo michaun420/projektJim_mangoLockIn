@@ -7,19 +7,25 @@ function Dishes(){
 
     const [dishes, setDishes] = useState([])
     const [randomDish, setRandomDish] = useState()
-
-    function getDish(){
-        try{
-            const response = axios.get('https://foodish-api.com/')
-            setDishes(response.data.img)
-        } catch(error){
-            console.error()
-        }
-    }
+    const get_api = (e) =>{
+        e.preventDefault();
+        axios.get('https://foodish-api.com/api/')
+            .then(function (response) {
+                setDishes(response.data.image)
+                console.log(dishes);
+        })
+            .catch(function (error) {
+                console.log(error);
+    })};
 
 
     return <div className="main">
         <h1>Wygeneruj losowy posiłek</h1>
+        <form className="form" onSubmit={get_api}>
+            <button type="submit">KLIKNIJ</button>
+        </form><br/><br/><br/><br/><br/>
+        <img src={dishes} width="600px" height="400px" alt=""></img><br/><br/>
+        <h1>Oto twój posiłek na dzisiaj ;D</h1>
     </div>
 }
 export default Dishes

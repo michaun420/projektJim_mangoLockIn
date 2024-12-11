@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import { Link, useNavigate,useOutlet } from "react-router-dom";
 import ad from './imgs/trenwyprzedarz.gif'
+import arnold from './imgs/arnold.jpg'
 
 const StyleButton = styled.button`
     background-color: #E2F1E7;
@@ -22,7 +23,14 @@ function Main(){
                 <li><Link to='/dishes'><StyleButton>Autorska dieta 'Random'</StyleButton></Link><br></br></li>      
                 <li><Link to='/exercises'><StyleButton>Ćwiczenia</StyleButton></Link><br></br></li>
                 </ul>
-                {outlet ?? <div className="main"></div>}
+                {outlet ?? <div className="main">
+                    <div className="mainLeft">
+                        <h1>TWOJA SIŁA - TWÓJ WYBÓR</h1>
+                    </div>
+                    <div className="mainRight">
+                        <img src={arnold} height="700px" width="500px"></img>
+                    </div>
+                    </div>}
                 <div className="ad"><a href="trening"><img src={ad} alt="ad" height='100%' width='252%'></img></a></div>
             </div>
             <div className="footer">

@@ -23,7 +23,7 @@ body{
   all: unset;
   list-style: none;
   border: 1px solid;
-  height: 750px;
+  height: 789px;
   width: 150px;
   padding: 10px;
   background-color: #387478;
@@ -67,4 +67,20 @@ input{
   height: 200px;
   margin: auto;
   margin-top: 40px;
+}
+.mainLeft{
+  float: left;
+  height: 700px;
+  width: 500px;
+  background-color: #243642;
+  margin: 60px;
+  margin-left: 210px;
+  color: ivory;
+}
+.mainRight{
+  float: left;
+  height: 700px;
+  width: 500px;
+  background-color: #243642;
+  margin: 60px;
 }

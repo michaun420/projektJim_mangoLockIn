@@ -25,7 +25,7 @@ function Calc(){
     return <div className="main">
         <div className="calc">
             <form className="form" onSubmit={max_rep}>
-            Podaj wagę:<br></br><br></br>
+            Podaj wagę (w kg):<br></br><br></br>
             <input type='number' value={waga} onChange={(e)=>setWaga(e.target.value)}></input><br></br><br></br>
             Podaj liczbę powtórzeń:<br></br><br></br>
             <input type='number' value={reps} onChange={(e)=>setReps(e.target.value)}></input><br></br><br></br>
