@@ -24,7 +24,7 @@ function Dishes(){
         <form className="form" onSubmit={get_api}>
             <button type="submit">KLIKNIJ</button>
         </form><br/><br/><br/><br/><br/>
-        <img src={dishes} width="600px" height="400px" alt=""></img><br/><br/>
+        <img src={dishes} alt="" width="700px" height="500px"></img><br/><br/>
         <h1>Oto twój posiłek na dzisiaj ;D</h1>
     </div>
 }

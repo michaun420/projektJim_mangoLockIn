@@ -28,10 +28,10 @@ function Main(){
                         <h1>TWOJA SIŁA - TWÓJ WYBÓR</h1>
                     </div>
                     <div className="mainRight">
-                        <img src={arnold} height="700px" width="500px"></img>
+                        <img src={arnold} height="600px" width="400px"></img>
                     </div>
                     </div>}
-                <div className="ad"><a href="trening"><img src={ad} alt="ad" height='100%' width='252%'></img></a></div>
+                <div><a href="trening"><img className="ad" src={ad} alt="ad"></img></a></div>
             </div>
             <div className="footer">
                 Stronę wykonał: Michał Nieradko i Maciej Wróblewski klasa V ET

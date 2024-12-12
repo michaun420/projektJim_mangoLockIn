@@ -23,7 +23,7 @@ body{
   all: unset;
   list-style: none;
   border: 1px solid;
-  height: 789px;
+  height: 85.1vh;
   width: 150px;
   padding: 10px;
   background-color: #387478;
@@ -32,7 +32,7 @@ body{
   background-color: #243642;
   text-align: center;
   color: ivory;
-  height: 56px;
+  height: 4.3vh;
 }
 .main{
   width: 80.52%;
@@ -73,8 +73,8 @@ input{
   height: 700px;
   width: 500px;
   background-color: #243642;
-  margin: 60px;
-  margin-left: 210px;
+  margin-left: 250px;
+  margin-top: 60px;
   color: ivory;
 }
 .mainRight{
@@ -82,5 +82,22 @@ input{
   height: 700px;
   width: 500px;
   background-color: #243642;
-  margin: 60px;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+.ad{
+  height: 87vh;
+  width: 25vh;
+}
+.przycisk{
+  height: 40px;
+  font-size: 30px;
+}
+.cwicz{
+  color: ivory;
+  height: 100px;
+  width: 200px;
+  background-color: #387478;
+  float: left;
+  margin: 20px;
 }
