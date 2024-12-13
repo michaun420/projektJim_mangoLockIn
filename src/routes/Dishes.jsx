@@ -25,7 +25,7 @@ function Dishes(){
             <button type="submit">KLIKNIJ</button>
         </form><br/><br/><br/><br/><br/>
         <img src={dishes} alt="" width="700px" height="500px"></img><br/><br/>
-        <h1>Oto twój posiłek na dzisiaj ;D</h1>
+        <h1>Oto twój posiłek na dzisiaj</h1>
     </div>
 }
 export default Dishes
